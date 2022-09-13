@@ -41,7 +41,7 @@ const Header = () => {
                     <Button colorScheme="telegram">
                       <div className="d-flex justify-content-center align-items-center">
                         <CgProfile className={style.icon} />
-                        <span className={style.logout_title}>Profile</span>
+                        <span className={style.logout_title}>New Post</span>
                       </div>
                     </Button>
                   </Link>
