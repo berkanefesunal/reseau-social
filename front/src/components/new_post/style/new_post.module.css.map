@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,MAAM;CAWhB;;AAZD,AAGE,SAHO,CAGP,cAAc,CAAC;EACb,gBAAgB,EAAE,IAAI;EACtB,UAAU,ECRD,qBAAqB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;EDS9C,KAAK,EAAE,IAAI;CAKZ;;AAXH,AAQI,SARK,CAGP,cAAc,CAKZ,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;CACd;;AAGL,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACpB;;AAED,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,KAAK;EAChB,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "new_post.module.scss",
+        "../../../style/variables.scss",
+        "../../../style/mixins.scss"
+    ],
+    "names": [],
+    "file": "new_post.module.css"
+}

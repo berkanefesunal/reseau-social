@@ -1,0 +1,35 @@
+@import "../../../style/variables";
+@import "../../../style/mixins";
+
+.header {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #fff;
+  box-shadow: $box_shadow;
+}
+
+.nav {
+  @include flexrowbetween;
+
+  .logo {
+    max-width: 250px;
+  }
+}
+
+.nav_list {
+  @include flexrowcenter;
+  .nav_item {
+    margin-left: 15px;
+    list-style: none;
+    .nav_link {
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+}
+
+.icon {
+  color: #fff;
+  margin-right: 5px;
+}

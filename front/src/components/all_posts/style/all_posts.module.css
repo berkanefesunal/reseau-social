@@ -1,0 +1,116 @@
+.all_posts {
+  padding: 50px 0;
+}
+
+.all_posts .all_posts_area {
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.all_posts .all_posts_area .all_posts_body {
+  padding: 20px;
+}
+
+.all_posts_body_item {
+  border-radius: 10px;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 15px;
+  background-color: #f8f8f8;
+}
+
+.all_posts_body_item_header {
+  margin-bottom: 20px;
+}
+
+.all_posts_body_item_header .all_posts_body_item_header_icon {
+  font-size: 50px;
+  margin-right: 20px;
+  color: #444;
+}
+
+.all_posts_body_item_header .all_posts_body_item_header_name {
+  font-size: 18px;
+  color: #000;
+}
+
+.all_posts_body_item_date {
+  text-align: end;
+  padding: 20px 0;
+}
+
+.all_posts_body_item_like_dislike {
+  padding: 10px 0;
+}
+
+.all_posts_body_item_like_dislike .all_posts_mention {
+  width: 100%;
+  cursor: pointer;
+  padding: 15px 0;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_posts_body_item_like_dislike .all_posts_mention:hover {
+  background-color: #eee;
+}
+
+.like_ment:hover {
+  background-color: green !important;
+}
+
+.like_ment:hover .all_posts_like_icon {
+  color: #fff !important;
+}
+
+.dislike_ment:hover {
+  background-color: red !important;
+}
+
+.dislike_ment:hover .all_posts_like_icon {
+  color: #fff !important;
+}
+
+.all_posts_like_icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.comment_area_body {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.comment_area_body_item {
+  padding: 15px 0;
+  margin: 5px 0;
+}
+
+.comment_area_user {
+  margin-bottom: 10px;
+}
+
+.comment_icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.user_email {
+  font-size: 18px;
+}
+/*# sourceMappingURL=all_posts.module.css.map */
