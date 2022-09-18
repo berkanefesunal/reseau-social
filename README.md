@@ -9,7 +9,7 @@ This web app built with using <a href="https://reactjs.org/">React</a> + <a href
   <li><a href="https://expressjs.com/">ExpressJS<a/> for handling requests</li>
   <li><a href="https://reactjs.org/docs/context.html">Context API<a/> for state management</li>
   <li><a href="https://axios-http.com/docs/intro">Axios<a/> for making API calls</li>
-  <li><a href="https://jwt.io">JSONWEBTOKEN<a/> for user actions</li>
+  <li><a href="https://jwt.io">JSON WEB TOKEN<a/> for user actions</li>
  </ul>
 
 ![resim](https://user-images.githubusercontent.com/66440491/190895221-09c543e1-4b08-4a99-97e2-605758c8d12b.png)
