@@ -34,7 +34,7 @@ This web app built with using <a href="https://reactjs.org/">React</a> + <a href
     Frontend Setup
   </li>
   <ul>
-     <li>Navigate front folder with <code>cd back</code> command</li>
+     <li>Navigate front folder with <code>cd front</code> command</li>
     <li> <code>npm install</code>  to install all required dependencies</li>
     <li>Set environment variables in <code>.env</code></li>
     <ul>
