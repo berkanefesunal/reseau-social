@@ -29,10 +29,11 @@ const getPost = async (req, res) => {
 
 const createPost = async (req, res) => {
   const input = req.body;
-  const img = `${req.protocol}://${req.get("host")}/${req.file.path}`;
-
+  if(req.file) {
+    const img = `${req.protocol}://${req.get("host")}/${req.file.path}`;
+    input.imageUrl = img;
+  }
   input.user = JSON.parse(req.body.user);
-  input.imageUrl = img;
 
   try {
     const post = await Post.create({
