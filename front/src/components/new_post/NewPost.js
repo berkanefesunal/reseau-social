@@ -19,7 +19,7 @@ const NewPost = ({setNewPost,newPost}) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!imageFile) {
+   /* if (!imageFile) {
       return toast({
         status: "error",
         title: "Error",
@@ -29,6 +29,7 @@ const NewPost = ({setNewPost,newPost}) => {
         position: "top",
       });
     }
+    */
 
     const formData = new FormData();
     formData.append("image", imageFile);
