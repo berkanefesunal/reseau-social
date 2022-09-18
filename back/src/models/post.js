@@ -29,7 +29,7 @@ const postSchema = new mongoose.Schema({
   imageUrl: {
     type: String,
     default: "",
-    required: true,
+    required: false,
   },
   createdAt: {
     type: Date,
